@@ -24,4 +24,4 @@ to access index `k` we would use `k = row * max(cols) + col`. To revert from lin
 ## Analysis
 1. `HoshenKopelman` - Finds the connected components in a binary 2D Image and returns their indexes
 2. `FFTransform` - Computes discrete fast fourier transform on a signal in the time domain to frequequency domain representation
-3 `IFFTransform` - Computes inverse discrete fast fourier transform on a signal in the frequency domain to time domain representation
+3. `IFFTransform` - Computes inverse discrete fast fourier transform on a signal in the frequency domain to time domain representation
