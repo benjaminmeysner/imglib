@@ -1,6 +1,6 @@
 Image Processing Library
 ========================
-A cross-platform, neat and tidy set of processing functions to smooth, blur, trim, pad and analyse image data as well other interesting manipulations.
+A cross-platform, C++ based set of processing functions to smooth, blur, trim, pad and analyse image data as well other interesting manipulations.
 
 ## Data Handling
 These library functions process image data in a linear vector `<T>` as a flexible container, the construction of
