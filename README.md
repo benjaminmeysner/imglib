@@ -1,6 +1,6 @@
-Image Processing Library
-========================
-A cross-platform, C++ based set of processing functions to smooth, blur, trim, pad and analyse image data as well other interesting manipulations.
+Image & Signal Processing Library
+=================================
+A cross-platform, C++ based set of processing functions to smooth, blur, trim, pad and analyse image data as well other interesting data manipulations.
 
 ## Data Handling
 These library functions process image data in a linear vector `<T>` as a flexible container, the construction of
@@ -23,3 +23,5 @@ to access index `k` we would use `k = row * max(cols) + col`. To revert from lin
 
 ## Analysis
 1. `HoshenKopelman` - Finds the connected components in a binary 2D Image and returns their indexes
+2. `FFTransform` - Computes discrete fast fourier transform on a signal in the time domain to frequequency domain representation
+3 `IFFTransform` - Computes inverse discrete fast fourier transform on a signal in the frequency domain to time domain representation
