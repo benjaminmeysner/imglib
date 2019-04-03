@@ -15,7 +15,7 @@ col = k % max(cols) and row = floor(k / max(cols)).
 4. RotateY - Row-wise rotation of the image
 5. RotateXY - A circular roation of the image
 
-##Filters
+## Filters
 1. MedianFilter
 2. MedianFilter2D
 3. ImFilter
